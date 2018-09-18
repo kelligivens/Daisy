@@ -1,1 +1,16 @@
 @import "bootstrap";
+
+.navbar {
+  background: image_url('dark_brick_wall_@2X.png');
+  box-shadow: 0 8px 6px -6px #2a2a2a;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #BFF549;
+  font-size: 26px
+}
+
+.display-3 {
+  color: #A1061B;
+}
+
