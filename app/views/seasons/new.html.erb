@@ -1,0 +1,7 @@
+<h1>Enter Your Favorite Season</h1>
+<%= simple_form_for @season do |f| %>
+  <%= f.input :season %>
+  <%= f.input :reason %>
+  <br />
+  <%= f.submit 'Create', class: 'btn btn-danger' %>
+<% end %>

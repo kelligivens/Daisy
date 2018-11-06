@@ -1,8 +1,10 @@
 class PagesController < ApplicationController
-  def show
-      render template: "pages/#{params[:page]}"
-      @season = Season.new
-      end
-    end
 
-    
+  def index
+    @pages = Page.all
+   end
+
+  def show
+    @season = Season.new  
+  end
+end
