@@ -4,7 +4,18 @@ class PagesController < ApplicationController
     @pages = Page.all
    end
 
-  def show
-    @season = Season.new  
+  def new
+    @page = Page.new
+  end
+  
+  def create
+    Page.create(page_params)
+    redirect_to root_path
+  end
+
+private
+
+  def page_params
+    params.require(:page).permit(:season, :reason, :memory)
   end
 end
