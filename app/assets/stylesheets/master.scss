@@ -36,22 +36,12 @@ body {
   clear: both;
 }
 
-.hero {
-  background: image_url('hero.jpg') no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 370px;
-  box-shadow: 0px 3px 8px #2a2a2a;
-}
-
 h1, h2, h3, h4, h5, h6, .navbar {
   margin: 0;
 }
 
 .frosty {
-  background: rgba(0, 0, 0, 0.25);
+  background: rgba(66, 140, 6, 0.75);
   color: white;
 }
 
@@ -65,4 +55,8 @@ h1, h2, h3, h4, h5, h6, .navbar {
   font-family: "Helvetica Neue", Helvetica;
   font-weight: 200;
   text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+}
+
+h1 {
+  color: 4B990B;  
 }
