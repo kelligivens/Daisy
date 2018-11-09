@@ -2,7 +2,7 @@
 <br />
 <div class="frosty col-6 offset-3 text-center">
     <br />
-    <h1>Spring, Summer, Winter or Fall</h1>
+    <h1>Spring, Summer, Fall or Winter</h1>
     <br />
     <h2>What's your favorite season?</h2>
     <br/>
@@ -11,14 +11,14 @@
 <br />
 
 
-
+<div class="row">
 <% @pages.each do |page| %>
-  <div class="booyah-box col-8 offset-2">
+  <div class="booyah-box col-12 col-sm-6 offset-3">
      <h1><%= page.season %></h1><br />
      <i><%= page.reason %></i><br />
      <p><%= page.memory %></p><br />
   </div>
-
 <% end %>
+</div>
   
      
